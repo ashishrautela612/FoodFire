@@ -1,0 +1,59 @@
+.cardWrapper{
+    box-shadow: -1px 5px 10px 5px rgba(112,112,112,.2);
+    padding: 12px;
+    border-radius: 11px;
+    transition: transform 0.3s ease;
+}
+.cardWrapper:hover {
+    transform: scale(1.03);
+  }
+.restroCard{
+}
+
+.restroCardImage{
+
+}
+
+.cardImage{
+    height: 25vh;
+    width: 16vw;
+    border-radius: 11px;
+}
+
+.restroDetails{
+    margin-top: 5px;
+}
+
+.restroName{
+    color:#353535;
+}
+.restroCuisines{
+    font-size: 0.91em;
+    font-weight: 400;
+    word-spacing: 10px;
+    margin-top: 7px;
+    overflow-x:scroll;
+}
+
+.restroFeatures{
+    display: flex;
+    gap: 8px;
+    font-size: 0.91em;
+    font-weight: 400;
+    margin-top: 10px;
+    font-weight: 600;
+    line-break: auto;
+}
+.ratingIcon{
+    color: #016034;
+}
+.restroRatings{
+
+}
+.restroDistance{
+
+}
+
+.restroCostForTwo{
+
+}
